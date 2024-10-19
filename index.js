@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 }
 );
 
-app.listen(PORT, () => {
-    console.log(`Text-to-Image Generation open at http://localhost:${PORT}`);
-}
-);
+// app.listen(PORT, () => {
+//     console.log(`Text-to-Image Generation open at http://localhost:${PORT}`);
+// }
+// );
