@@ -18,3 +18,5 @@ app.get('/', (req, res) => {
 //     console.log(`Text-to-Image Generation open at http://localhost:${PORT}`);
 // }
 // );
+
+module.exports = app;
