@@ -1,0 +1,34 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "description": "An express server to expose an endpoint for generating image",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Colin-Stark/text-image-server.git"
+  },
+  "keywords": [
+    "ai",
+    "express",
+    "package",
+    "server",
+    "endpoints",
+    "imageGeneration",
+    "openAI",
+    "models"
+  ],
+  "author": "COLLINS OLOKPEDJE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Colin-Stark/text-image-server/issues"
+  },
+  "homepage": "https://github.com/Colin-Stark/text-image-server#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "openai": "^4.68.1"
+  }
+}
